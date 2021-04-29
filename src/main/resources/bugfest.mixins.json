@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sekoia.bugfest.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BeeStandingEyeHeight",
+    "CatConsistencyFix",
+    "EnderDragonBreaksBlocks",
+    "EndermanBlockRenderer",
+    "EndermanPose",
+    "GoldenAppleConsuming",
+    "ItemGroupMixin",
+    "MaxFireballPower"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
